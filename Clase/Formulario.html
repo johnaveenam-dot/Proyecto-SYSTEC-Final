@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css"
+	
+</head>
+<body>
+	<div id="navegacion">
+		<table id="TablaMenu">
+		     <tr>
+			     <td align="center">
+				<button class="MenuB1" onclick="window.location.href='Formulario.html'">Inicio</button>
+			     <button class="MenuB2" onclick="window.location.href='Mi banda Favorita.html'">Formulario</button>
+			     <button class="MenuB3" onclick="window.location.href='Mi banda Favorita.html'">Consulta</button>
+			     <button class="MenuB4" onclick="window.location.href='Mi banda Favorita.html'">Otros</button>
+				 <button class="MenuB5" onclick="window.location.href='Mi banda Favorita.html'">Quienes Somos</button>
+
+					</td>
+
+		</tr>
+          </table>
+	</div>
+	<br><br><br><br><br><br>
+
+
+	<form action="Mi banda Favorita.html" method="get">
+	<table id="Tablaformulario" border="1" style="width: 400px;" >
+		<tr>
+	 		<th>Nombre:</th>
+		<td> <input type="text" name="Nombre"></td>
+	</tr	>
+		<tr>
+	 		<th>Direccion:</th>
+	 		<td><input type="text" name="Direccion"></td> </td>
+	</tr>
+		<tr>
+	 		<th>Telefono:</th>
+	 		<td><input type="text" name="Telefono"></td>
+	</tr>
+	 	<tr>
+	 		<th>Genero:</th>
+	  	<td>
+			<input type="radio" name="genero" value="mas">Masculino<br>
+			<input type="radio" name="genero" value="fem">Femenino
+	</td>
+	</tr>
+		<tr>
+			<th>Carrera:</th>
+		<td>
+			<select name="carrera">
+			<option value="II">Ingenieria Informatica</option>
+			<option value="IN">Ingenieria en Negocios</option>
+			<option value="CE">Contaduria Empresarial</option>
+			<option value="D">Derecho</option>
+			<option value="M">Psicologia</option>
+			<option value="MKT">Marketing</option>
+							
+		</select>
+	</td>
+		</tr>
+			<td colspan="2" align="center">
+			<br>
+			<input id="boton1" type="submit" value="Aceptar">
+			<input id="boton2" type="submit" value="Limpiar">
+			<input id="boton3" type="submit" value="Cancelar">
+
+	</td>
+		</tr>
+	</table>
+		</form>
+		<br><br>
+<a href="Mi banda Favorita.html">Click Aqui</a>
+
+		<table id="tabla2" border="1" style="width: 600px;">
+			
+		<thead>
+			<tr>
+				<th>No.</th> 
+				<th>Nombre</th>
+				<th>Direccion</th>
+				<th>Clase</th>
+		</tr>
+		</thead>
+			<tbody>
+		<tr>
+			<th>1</th>
+			<td>Carlos Ponce</td>
+			<td>Tegucigalpa</td>
+			<td>Gobierno Electronico</td>
+		</tr>
+		<tr>
+			<th>2</th>
+			<td>Maryi Pavon</td>
+			<td>Tegucigalpa</td>
+			<td>Desarrollo Multimedia</td>
+		</tr>
+		<tr>
+			<th>3</th>
+			<td>Josué Barahona</td>
+			<td>Tegucigalpa</td>
+			<td>Diseño de Interfaz</td>
+		</tr>
+		</tbody>
+
+		<tfoot>
+    <tr>
+        <td colspan="4" style="text-align: center;">
+            Fin de la Tabla
+        </td>
+    </tr>
+</tfoot>
+			</table>
+											
+		</body>
+		</html>

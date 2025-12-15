@@ -1,0 +1,103 @@
+#TablaMenu{
+			width: 100%;
+            background-color: lightgray;
+            height: 80px;
+            border-collapse: collapse;
+		
+		}
+        #navegacion{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+		button{
+			width: 15%;
+			height: 30px;
+			border: none;
+			margin: 0;
+			padding: 0;
+	
+		}
+		button.MenuB1, button.MenuB2, button.MenuB3, button.MenuB4, button.MenuB5{
+			font-size: 15px;
+			font-family: Arial;
+			font-weight: bold;
+			background-color: lightgray;
+			cursor: pointer;
+			transition-duration: 0.5s;
+            height: 80px;
+        
+
+        }
+        
+		button.MenuB1:hover, button.MenuB2:hover, button.MenuB3:hover, button.MenuB4:hover,button.MenuB5:hover{
+			background-color: lightslategray;
+			color: whitesmoke;
+
+
+		}
+		#Tablaformulario{
+			text-align: center;
+			border: 1px solid black;
+			font-size: 20px;
+			width: 20px;
+			height: 50px;
+			
+		}
+		table{
+			width: 100px;
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+		#tabla2{
+			font-size: 20px;
+			align-items: center;
+			width: 100px;
+			height: 50px;
+			border: 1px solid black;
+			text-align: center;
+				
+		
+		}
+		td{
+			font-family: Arial, Helvetica, sans-serif;
+			position: center;
+			background-color: lightgray;
+		}
+		th{
+			font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			position: center;	
+			background-color: lightslategray;
+		
+		}
+		#boton1, #boton2, #boton3{
+				font-size: 15px;
+				font-family: Arial;
+				font-weight: bold;
+
+		}	
+		#boton1:hover, #boton2:hover, #boton3:hover{
+				background-color: lightslategray;
+				color: whitesmoke;		
+				
+
+			}		
+			#boton1{
+				background-color: lightgray;
+				cursor: pointer;
+			}
+			#boton2{
+				background-color: lightgray;
+				cursor: pointer;
+
+			}
+			#boton3{
+				background-color: lightgray;
+				cursor: pointer;
+				
+				
+
+			}
+            

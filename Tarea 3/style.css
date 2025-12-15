@@ -1,0 +1,93 @@
+#TablaInicio{
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    left: 0;
+    right:0;
+       
+}
+td{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    color: darkblue;
+    
+}
+#TablaMenu{
+    position:fixed;
+    top: 200px;
+    width: 100%;
+    height: 80px;
+    border-collapse: collapse;
+
+}
+button.Menu1{
+    width: 150px;
+    height: 100px;
+    border-color: lightblue;
+    font-size: 15px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	cursor: pointer;
+	transition-duration: 0.5s;
+    
+    
+}
+ button.Menu2, button.Menu3{
+    width: 150px;
+    height: 100px;
+    border-color: lightblue;
+    font-size: 15px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	cursor: pointer;
+	transition-duration: 0.1s;
+
+}
+button.Menu1:hover, button.Menu2:hover, button.Menu3:hover{
+    background-color: lightskyblue;
+    color:black
+
+
+}
+#TablaProductos{
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    left: 0;
+    right:0;   
+
+}
+#TablaSomos{
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    left: 0;
+    right:0;
+    
+}
+.contenedorInicio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: darkblue;
+    margin-top: 350px;
+      
+}
+.contenedorproductos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: darkblue;
+    margin-top: 350px;
+
+}
+.contenedorSomos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: darkblue;
+    margin-top: 350px;
+}
